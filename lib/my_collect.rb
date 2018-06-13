@@ -3,5 +3,6 @@ def my_collect(languages)
   collection=[]
   while i<languages.length
     collection<<
-    yield
+    yield(langauges[i])
+    
 end
