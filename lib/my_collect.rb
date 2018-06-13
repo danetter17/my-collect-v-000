@@ -5,4 +5,6 @@ def my_collect(languages)
     collection<<
     yield(langauges[i])
     i+=1
+  end
+  collection
 end
