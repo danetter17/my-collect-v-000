@@ -4,5 +4,5 @@ def my_collect(languages)
   while i<languages.length
     collection<<
     yield(langauges[i])
-    
+    i+=1
 end
